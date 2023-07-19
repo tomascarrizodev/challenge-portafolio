@@ -1,0 +1,5 @@
+section.academic{
+    background: var(--cor-azul-claro, #EAF2FD);
+    padding: 1rem;
+    padding-bottom: 0;
+}

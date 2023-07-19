@@ -1,0 +1,11 @@
+section.formcontato {
+    padding: 2rem;
+    background: var(--cor-azul-claro, #EAF2FD);
+}
+
+@media screen and (min-width: 1024px) {
+    .formcontato--esquerda {
+        display: flex;
+        flex-direction: row;
+    }
+}

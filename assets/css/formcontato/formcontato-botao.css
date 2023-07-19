@@ -1,0 +1,27 @@
+.formcontato__botao {
+    width: 50%;
+    background: var(--cor-azul, #2A7AE4);
+    color: #fff;
+    padding: .8rem 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.formcontato__botao:hover {
+    background: #1f64be;
+}
+
+@media screen and (min-width: 768px) {
+    .formcontato__botao {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1024px) {   
+    .formcontato__botao {
+        width: 33%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}

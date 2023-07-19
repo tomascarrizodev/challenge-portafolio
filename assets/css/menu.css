@@ -1,0 +1,24 @@
+section.menu{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    section.menu {
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .menu nav {
+        display: flex;
+        align-items: center;
+    }
+}

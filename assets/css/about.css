@@ -1,0 +1,10 @@
+section.about{
+    padding: 1rem;
+    background: var(--cor-azul-claro, #EAF2FD);
+}
+
+@media screen and (min-width: 768px) {
+    section.about {
+        padding: 2rem;
+    }
+}

@@ -1,0 +1,10 @@
+section.experience{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    section.experience {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,18 @@
+.title__bio {
+    line-height: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .title__bio {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title__bio {
+        font-size: 2.6rem;
+        text-wrap: balance;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+}

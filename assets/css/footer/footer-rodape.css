@@ -1,0 +1,11 @@
+.footer__rodape {
+    text-align: center;
+}
+
+.footer__rodape p:nth-child(1) {
+    margin-bottom: 0;
+}
+
+.footer__rodape p:nth-child(2) {
+    margin-top: 0.2rem;
+}

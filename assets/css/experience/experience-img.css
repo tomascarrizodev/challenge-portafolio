@@ -1,0 +1,17 @@
+.experience__img {
+    width: 100%;
+}
+
+.experience__img--corgi, .experience__img--mdhl {
+    width: auto;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+    .experience__img {
+        width: auto;
+        max-width: 55%;
+    }
+}

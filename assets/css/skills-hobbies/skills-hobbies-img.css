@@ -1,0 +1,13 @@
+.skills__img, .hobbies__img {
+    margin-bottom: 1rem;
+}
+
+.skills__img span {
+    font-size: 2rem;
+    color: var(--cor-azul, #2A7AE4);
+}
+
+.skills__img svg, .hobbies__img svg {
+    fill: var(--cor-azul, #2A7AE4);
+    height: 2rem;
+}

@@ -1,0 +1,37 @@
+.formcontato__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 1px solid #bbb;
+    background: #fff;
+    border-radius: .2rem;
+    height: 2rem;
+}
+
+.formcontato__container::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: var(--cor-azul, #2A7AE4);
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .3s;
+}
+
+.formcontato__container--focus::after {
+    width: 100%;
+}
+
+.formcontato__container--focus-error::after {
+    background: rgb(231, 62, 95);
+    width: 100%;
+}
+
+.formcontato__container--mensaje {
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+}

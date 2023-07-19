@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    .menu__list__item__contato {
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__list__item a {
+        font-weight: 700;
+        color: #888;
+    }
+
+    .menu__list__item a:hover {
+        color: #666;
+    }
+}

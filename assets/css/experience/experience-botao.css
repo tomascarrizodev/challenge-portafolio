@@ -1,0 +1,19 @@
+button.experience__botao--repo {
+    background: transparent;
+    border: 1px solid var(--cor-azul, #2A7AE4);
+    color: var(--cor-azul, #2A7AE4)
+}
+
+button.experience__botao--repo:hover {
+    background: #fff;
+}
+
+button.experience__botao--demo {
+    background: var(--cor-azul, #2A7AE4);
+    border: none;
+    color: #fff;
+}
+
+button.experience__botao--demo:hover {
+    background: #1f64be;
+}

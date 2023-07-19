@@ -1,0 +1,9 @@
+.title__network__item a {
+    padding: .2rem;
+    border-radius: .2rem;
+    transition: all .2s;
+}
+
+.title__network__item a:hover {
+    background: #ddd;
+}

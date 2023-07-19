@@ -1,0 +1,24 @@
+.formcontato__label {
+    position: absolute;
+    color: #bbb;
+    font-size: 1.2rem;
+    top: 1.2rem;
+    z-index: 2;
+    transition: all .3s;
+}
+
+.formcontato__label.writing-label {
+    transform: translateY(-0.6rem);
+    font-size: 0.8rem;
+    color: var(--cor-azul, #2A7AE4);
+}
+
+.formcontato__label.filled-label {
+    transform: translateY(-0.6rem);
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.formcontato__label.filled-label.label-error {
+    color:rgb(231, 62, 95);
+}

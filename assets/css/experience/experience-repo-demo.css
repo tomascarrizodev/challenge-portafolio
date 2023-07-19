@@ -1,0 +1,5 @@
+.experience__repo button, .experience__demo button {
+    padding: .8rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

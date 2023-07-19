@@ -1,0 +1,8 @@
+@media screen and (min-width: 1024px) {
+    .formcontato__contacto {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        gap: 1rem;
+    }
+}

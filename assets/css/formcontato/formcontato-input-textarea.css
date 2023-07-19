@@ -1,0 +1,17 @@
+.formcontato__input, .formcontato__textarea {
+    position: absolute;
+    border: none;
+    font-size: 1.2rem;
+    width: calc(100% - 2rem);
+    z-index: 1;
+    resize: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.formcontato__input:focus, .formcontato__textarea:focus {
+    outline: none;
+}
+
+.formcontato__input.writing-input {
+    transform: translateY(0.8rem);
+}

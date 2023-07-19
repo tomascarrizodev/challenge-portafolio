@@ -1,0 +1,7 @@
+.formcontato__error {
+    position: absolute;
+    z-index: 3;
+    bottom: -1.5rem;
+    color: rgb(231, 62, 95);
+    font-weight: bold;
+}

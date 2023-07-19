@@ -1,0 +1,13 @@
+.skills__line, .hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__line, .hobbies__line {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

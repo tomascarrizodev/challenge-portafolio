@@ -1,0 +1,18 @@
+.experience__box {
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .experience__box:nth-child(odd) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .experience__box:nth-child(even) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

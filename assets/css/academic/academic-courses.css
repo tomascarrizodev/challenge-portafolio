@@ -1,0 +1,17 @@
+.academic__courses {
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .academic__courses {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .academic__courses {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
